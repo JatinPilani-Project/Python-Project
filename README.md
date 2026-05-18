@@ -1,19 +1,60 @@
 # Automated Resume Screening Tool
 
-AI-powered Resume Screening Tool using Python, NLP, TF-IDF, Cosine Similarity, FastAPI, and Streamlit.
+## Overview
+This project is a Python-based Automated Resume Screening Tool that helps recruiters shortlist resumes automatically using NLP techniques.
 
 ## Features
-- Resume Parsing
-- Skill Extraction
-- Resume Ranking
+- PDF & DOCX Resume Parsing
+- TF-IDF Based Resume Matching
+- Cosine Similarity Scoring
+- Candidate Ranking
 - CSV Report Generation
-- FastAPI Backend
 - Streamlit Dashboard
 
-## Run Commands
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- pdfplumber
+- python-docx
+- Streamlit
 
+## Project Structure
+```bash
+Automated-Resume-Screening-Tool/
+├── resumes/
+├── data/
+├── outputs/
+├── images/
+├── src/
+├── docs/
+├── app.py
+├── streamlit_app.py
+├── requirements.txt
+└── README.md
+```
+
+## Installation
 ```bash
 pip install -r requirements.txt
-python main.py
-streamlit run dashboard/streamlit_app.py
 ```
+
+## Run Project
+```bash
+python app.py
+```
+
+## Run Dashboard
+```bash
+streamlit run streamlit_app.py
+```
+
+## Future Improvements
+- FastAPI Integration
+- AI Skill Extraction
+- Database Integration
+- Semantic Search
+
+## Author
+Jatin Pilani
